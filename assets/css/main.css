@@ -1,0 +1,87 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    font-size: 14px;
+}
+
+.logo {
+
+}
+
+.login-body {
+    background-image: url('../img/balance-beach-fitness.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.login-body .logo {
+    max-height: 200px;
+}
+
+/* SPACERS */
+.spacer {
+    display: block;
+    height: 10px;
+    clear: both;
+}
+
+.spacer-2 {
+    display: block;
+    height: 10px;
+    clear: both;
+}
+
+.profile-image {
+    margin: 30px auto;
+    height: 250px;
+}
+
+.stat-card {
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.stat-card .icon::before {
+    font-size: 60px;
+}
+
+.stat-card .stat-card-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.stat-card.alimentacao {
+    background-color: #e67e22;
+}
+
+.stat-card.peso {
+    background-color: #3498db;
+}
+
+.stat-card.atividades {
+    background-color: #1abc9c;
+}
+
+.stat-big-icon::before {
+    font-size: 120px;
+    margin: 0px;
+}
+
+/* Cores */
+
+.color-alimentacao {
+    color: #e67e22;
+}
+
+.color-peso {
+    color: #3498db;
+}
+
+.color-atividades {
+    color: #1abc9c;
+}

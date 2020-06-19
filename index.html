@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Healthtrack - Login</title>
+
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="login-body">
+    
+    <div class="container">
+        <div class="row justify-content-sm-center">
+            <div class="col-md-auto col-sm-auto">
+                <div class="text-center">
+                    <img class='logo' src="./assets/img/logo-branco.png" alt="logo-health-track">
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Login</h4>
+                        <form action="dashboard.html" method="POST">
+                            <div class="form-group">
+                                <label for="iptEmail">E-mail</label>
+                                <input id='iptEmail' type="email" class="form-control" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="iptPassword">Senha</label>
+                                <input id='iptPassword' type="password" class="form-control" required>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class='btn btn-primary'>Fazer Login</button>
+                            </div>
+                        </form>
+                        <div class="spacer"></div>
+                        <p class="text-center">
+                            Não lembra sua senha?<br>
+                            <a href="">Clique aqui para recuperar</a>
+                        </p>
+
+                        <div class="spacer"></div>
+                        <p class="text-center">
+                            Ainda não tem uma conta?<br>
+                            <a href="" class="btn btn-info">Cadastre-se!</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Includes do bootstrap -->
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
